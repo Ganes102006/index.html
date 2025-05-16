@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unstop Certificate Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #ffffff;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 16px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .header-left img {
+      height: 36px;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .header-right img {
+      width: 22px;
+      height: 22px;
+      cursor: pointer;
+    }
+
+    .login-button {
+      background-color: #0a66c2;
+      color: white;
+      border: none;
+      border-radius: 999px;
+      padding: 8px 16px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    /* Certificate Frame */
+    .certificate-frame {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    .title-block {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .title-block h2 {
+      color: #123c7a;
+      margin-bottom: 10px;
+    }
+
+    .title-block p {
+      color: #444;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    .certificate-preview {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .certificate-preview img {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .linkedin-button {
+      display: block;
+      margin: 0 auto 20px;
+      padding: 12px 18px;
+      background-color: #e6f0ff;
+      color: #0a66c2;
+      text-align: center;
+      width: fit-content;
+      border: 1px solid #0a66c2;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .social-share {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 10px;
+    }
+
+    .social-share a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background-color: white;
+      border: 1px solid #ccc;
+      overflow: hidden;
+    }
+
+    .social-share img {
+      width: 22px;
+      height: 22px;
+      object-fit: contain;
+    }
+
+    /* Footer nav */
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #f9f9f9;
+      border-top: 1px solid #ccc;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      z-index: 100;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: #333;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .footer img {
+      width: 24px;
+      height: 24px;
+      display: block;
+      margin: 0 auto 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <img src="unstop-logo.png" alt="Unstop Logo">
+    </div>
+    <div class="header-right">
+      <img src="search-icon.png" alt="Search">
+      <a class="login-button" href="https://unstop.com/auth/login">Login</a>
+    </div>
+  </div>
+
+  <!-- Certificate Section -->
+  <div class="certificate-frame">
+
+    <!-- Title -->
+    <div class="title-block">
+      <h2>Certificate of Participation</h2>
+      <p>This certificate provided by R. C. Patel Institute of Technology, Shirpur, Maharashtra is proof of the sheer grit, hard work, & dedication of the participant through which he/she has participated in the Converges' 25. Unstop congratulates them on achieving yet another milestone.</p>
+    </div>
+
+    <!-- Certificate Image -->
+    <div class="certificate-preview">
+      <img src="certificate.jpg" alt="Certificate Image">
+    </div>
+
+    <!-- LinkedIn Button -->
+    <a href="#" class="linkedin-button">Add to LinkedIn profile</a>
+
+    <!-- Social Media Icons -->
+    <div class="social-share">
+      <a href="https://x.com" target="_blank"><img src="x-logo.png" alt="X"></a>
+      <a href="https://whatsapp.com" target="_blank"><img src="whatsapp-logo.png" alt="WhatsApp"></a>
+      <a href="https://www.linkedin.com" target="_blank"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <a href="https://unstop.com/"><img src="unstop-icon.png" alt="Unstop">Unstop</a>
+    <a href="https://unstop.com/internship-portal"><img src="internship-icon.png" alt="Internships">Internships</a>
+    <a href="https://unstop.com/job-portal"><img src="job-icon.png" alt="Jobs">Jobs</a>
+    <a href="https://unstop.com/compete"><img src="competition-icon.png" alt="Competitions">Competitions</a>
+    <a href="https://unstop.com/mentor"><img src="mentorship-icon.png" alt="Mentorship">Mentorship</a>
+    <a href="#"><img src="more-icon.png" alt="More">More</a>
+  </div>
+
+</body>
+</html>
